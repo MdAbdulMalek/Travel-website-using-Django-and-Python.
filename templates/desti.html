@@ -1,0 +1,29 @@
+{% load static %}
+{% static "images" as baseUrl %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination</title>
+</head>
+<body>
+    hhhh
+    {% for d in doo %}
+        <div> Hello  {{d.name}} </div>
+    {%   endfor %}
+
+    <h2> here {{doo.name}}</h2>
+<!--
+    {% if dest.name == "Paharpur" %}
+        <h1>Hello paharpur.</h1>
+    {% elif dest.name == "Sonamosjid" %}
+         <h1>Hello sonamoshid.</h1>
+    {% else %}
+        <h1>Hello Sajek.</h1>
+    {% endif %}
+-->
+    
+</body>
+</html>
